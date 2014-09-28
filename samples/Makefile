@@ -1,6 +1,6 @@
-obj-m += <objects.o>
+obj-m += sample.o
 
 all:
-	$(MAKE) -C /lib/modules/$(shell uname -r)/build M=$(pwd) modules
+	$(MAKE) -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 clean:
-	$(MAKE) -C /lib/modules/$(shell uname -r)/build M=$(pwd) clean
+	$(MAKE) -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
