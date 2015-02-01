@@ -1,4 +1,4 @@
-<h1>kernelStudy</h1><br/>
+<h1>Study of Kernel Modules Step By Step</h1><br/>
 <!--<tr> <th> SLNO </th><th> NAME </th> <th> DESCRIPTION </th> <th> STATUS </th></tr>-->
 <table>
 	<tr> <th> SLNO </th><th> NAME </th> <th> DESCRIPTION </th> <th> STATUS </th></tr>
