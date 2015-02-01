@@ -1,0 +1,12 @@
+Steps To Compile any Module
+===========================
+1. Go To Respective Folder
+   $ cd <module directory>
+2. Use Makefile and make tool To Compile
+   $ make
+3. To Load Module
+   $ insmod <module name>
+4. To Unload Module
+   $ rmmod <module name>
+5. To Get Info of Module
+   $ modinfo <module name>
