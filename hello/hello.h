@@ -5,7 +5,7 @@
  * Description          : Hello Kernel Module                                 *
  *                      : only insmod and rmmod                               *
  * Target Architecture  : Generic                                             *
- * Date                 : 01-Jan-2015                                         *
+ * Date                 : 01-Feb-2015                                         *
  * Author               : rajesh6115                                          *
  * Version              : 0.0.1                                               *
  * Dependency           : NA                                                  *
