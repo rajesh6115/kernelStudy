@@ -1,7 +1,8 @@
 <h1>kernelStudy</h1><br/>
-===========<br/>
+	<!--<tr> <th> SLNO </th><th> NAME </th> <th> DESCRIPTION </th> <th> STATUS </th></tr>-->
 <table>
-	<tr> <th> SLNO </th><th> NAME </th> <th> DESCRIPTION </th> </tr>
+	<tr> <th> SLNO </th><th> NAME </th> <th> DESCRIPTION </th> <th> STATUS </th></tr>
+	
 </table>
      NAME              DESCRIPTION
 1. samples           for sample/template project
