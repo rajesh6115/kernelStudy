@@ -1,0 +1,33 @@
+TO COMPILE
+-----------------------
+make clean
+make
+
+
+TO LOAD KERNEL MODULE
+------------------------
+sudo insmod sayhello.ko
+
+
+TO UN LOAD KERNEL MODULE
+-------------------------
+sudo rmmod sayhello
+
+TO CREATE DEVICE NODE IN /dev FILE SYSTEM
+------------------------------------------
+sudo mknode c 90 0
+sudo chmod 666 /dev/SayHello
+
+TO READ FROM DEVICE FILE
+---------------------
+sudo cat /dev/SayHello
+
+
+TO WRITE INTO DEVICE FILE
+---------------------------
+sudo echo "Hello" > /dev/SayHello
+
+
+TO See Kernl Messages
+-----------------------
+dmesg
